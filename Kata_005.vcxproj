@@ -131,9 +131,11 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="modelclass.cpp" />
     <ClCompile Include="openglclass.cpp" />
+    <ClCompile Include="textureclassshader.cpp" />
     <ClCompile Include="systemclass.cpp">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)/glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <ClCompile Include="TextureClass.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cameraclass.h" />
@@ -144,12 +146,16 @@
     <ClInclude Include="KHR\khrplatform.h" />
     <ClInclude Include="modelclass.h" />
     <ClInclude Include="openglclass.h" />
+    <ClInclude Include="textureshaderclass.h" />
     <ClInclude Include="systemclass.h" />
+    <ClInclude Include="textureclass.h" />
     <ClInclude Include="wglext.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="shaders\color.ps" />
     <None Include="shaders\color.vs" />
+    <None Include="shaders\texture.ps" />
+    <None Include="shaders\texture.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

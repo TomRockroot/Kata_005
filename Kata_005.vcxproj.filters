@@ -42,6 +42,12 @@
     <ClCompile Include="cameraclass.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="TextureClass.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="textureclassshader.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="systemclass.h">
@@ -74,6 +80,12 @@
     <ClInclude Include="KHR\khrplatform.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="textureclass.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="textureshaderclass.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="shaders\color.vs">
@@ -82,5 +94,7 @@
     <None Include="shaders\color.ps">
       <Filter>Shaders</Filter>
     </None>
+    <None Include="shaders\texture.ps" />
+    <None Include="shaders\texture.vs" />
   </ItemGroup>
 </Project>
