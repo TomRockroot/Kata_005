@@ -32,8 +32,8 @@ public:
 
 private:
 	bool InitializeShader(const char*, const char*, OpenGLClass*, HWND);
-	char* LoadShaderSourceFile(char*);
-	void OutputShaderErrorMessage(OpenGLClass*, HWND, unsigned int, char*);
+	char* LoadShaderSourceFile(const char*);
+	void OutputShaderErrorMessage(OpenGLClass*, HWND, unsigned int, const char*);
 	void OutputLinkerErrorMessage(OpenGLClass*, HWND, unsigned int);
 	void ShutdownShader(OpenGLClass*);
 
